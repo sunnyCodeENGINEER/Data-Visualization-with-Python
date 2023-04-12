@@ -4,6 +4,8 @@ import seaborn as sns
 
 data = pd.read_csv("fifa.csv")
 print(data.head())
+print("\n")
+print(data.tail())
 print(data.columns)
 
 list_cols = ['ARG', 'BRA']
